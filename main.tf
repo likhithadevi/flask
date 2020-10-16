@@ -1,7 +1,7 @@
 // Configure the Google Cloud provider
 provider "google" {
  credentials = file("CREDENTIALS_FILE.json")
- project     = "flask-app-291416"
+ project     = "flask-app-<ID>"
  region      = "us-west1"
 }
 // Terraform plugin for creating random ids
